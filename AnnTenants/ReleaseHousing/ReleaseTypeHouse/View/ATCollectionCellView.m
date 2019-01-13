@@ -122,7 +122,7 @@
     ATCollectionCellView *cell = [[ATCollectionCellView alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ATShareHouseCellView"];
     [cell layoutIfNeeded];//此方法强制立即布局并显示更新,调用 layoutSubviews, 它会自动执行相当于setNeedsLayout的操作
     CGRect frame = cell.sectionTitle.frame;
-    CGFloat height = frame.origin.y + frame.size.height + 10;
+    CGFloat height = frame.origin.y + frame.size.height + 50;
     return height;
 }
 
